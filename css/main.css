@@ -1,0 +1,72 @@
+*{
+   padding:0;
+   margin:0;
+   box-sizing:border-box;
+   font-family: 'Fuggles', cursive;
+   font-family: 'Open Sans', sans-serif;
+}
+
+body{
+  background-image:url('../img/giphy.gif');
+  background-size:cover;
+}
+
+span{
+  color: red;
+}
+
+#container{
+  position: relative;
+  width:600px;
+  height: 340px;
+  margin:auto;
+  margin-top:20px;
+  border:1px solid red;
+  padding:5px;
+  border-radius:20px;
+  background-color:rgba(255, 255, 255, 0.7);
+  opacity:0.5;
+  display:flex;
+  justify-content: space-around;
+}
+
+h2 {
+  position: absolute;
+}
+
+form,table{
+  width:50%;
+  display:inline-block;
+}
+
+table{
+  margin-top: 60px;
+  margin-left: 100px;
+}
+
+div form{
+  margin-top: 50px;
+}
+
+div form input{
+  display:inline-block;
+  border-radius: 15px;
+}
+
+form input:hover{
+  border: 3px solid red;
+}
+
+select:hover{
+  border: 3px solid red;
+}
+
+#container:hover{
+   opacity:1;
+}
+
+
+
+
+
+
